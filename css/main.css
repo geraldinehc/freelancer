@@ -1,3 +1,75 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilos de tu proyecto*/
+/*herencia*/
+* {
+  box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/* de minuscula a mayuscula*/
+.text-upercase {
+  text-transform: uppercase;
+}
+/*posisionamiento*/
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #2e3c50;
+  height: 120px;
+  top: 0;
+  overflow: auto;
+  z-index: 1000;
+}
+
+.nav-principal {
+  display: inline-block;
+}
+
+.menu {
+  list-style: none;
+  float: right;
+  margin-right: 200px;
+  margin-bottom: 0;
+  line-height: 120px;
+}
+
+.hombresito a, .menu a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.hombresito {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 200px;
+  line-height: 10px;
+}
+.menu li {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+.menu a:hover {
+  color: #18bc9c;
+}
+
+.start {
+  margin-top: 120px;
+  background-color: #18bc9c;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.start .profile {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  padding-top: 80px;
+}
