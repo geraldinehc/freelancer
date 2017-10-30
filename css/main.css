@@ -10,6 +10,7 @@ padding: 0;
   text-transform: uppercase;
 }
 /*posisionamiento*/
+
 header {
   position: fixed;
   width: 100%;
@@ -42,8 +43,8 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: bold;
+  line-height: 120px;
   margin-left: 200px;
-  line-height: 10px;
 }
 .menu li {
   display: inline;
@@ -79,6 +80,7 @@ header {
   font-size: 70px;
   color: #fff;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .title h1 ::after {
@@ -374,15 +376,20 @@ footer {
 }
 
 footer div.content {
-  width: 90%;
+  /*width: 90%;
   margin: auto;
-  overflow: auto;
+  overflow: auto;*/
+  width: 100%;
+margin: auto;
+text-align: center;
+position: relative;
 }
 
 footer h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   margin-bottom: 30px;
+
 }
 
 footer p {
@@ -394,7 +401,8 @@ footer p {
 footer div.location, div.around, div.about-freelancer {
   float: left;
   margin-right: 50px;
-  text-align: center:
+  text-align: center;
+  width: 22%;
 }
 
 div.location {
@@ -428,6 +436,8 @@ footer div.around .link i:hover {
 
 div.about-freelancer {
  width: 27%;
+ text-align: center;
+ float: left;
 }
 
 div.about-freelancer a {
