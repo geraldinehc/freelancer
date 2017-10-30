@@ -73,3 +73,295 @@ header {
   margin-bottom: 40px;
   padding-top: 80px;
 }
+
+.start h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.title h1 ::after {
+  content: " " ;
+  background-color: #fff;
+  height: 5px;
+  width: 7%;
+  display: block;
+  margin-top: 35px;
+  margin-left: 650px;
+}
+.star-title {
+  color: #fff;
+  font-size: 30px;
+  position:relative;
+  bottom: 20px;
+  display: inline-block;
+}
+
+.star-title::after {
+  content: " ";
+  background-color: #fff;
+  height: 5px;
+  width: 300%;
+  display: inline-block;
+  position: relative;
+  bottom: 41px;
+  left: 55px;
+}
+
+#not-uppercase h3 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  position: relative;
+  bottom: 30px;
+  padding-bottom: 60px;
+}
+
+.portfolio h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #212529;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.star-line {
+border-color: #2c3e50;
+background-color: #2c3e50;
+width: 7%;
+height: 5px;
+margin: 10px auto;
+display: inline-block;
+}
+
+.star-portfolio-blue {
+    color:#2c3e50;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+}
+
+/*imagenes que van dentro del portafolio*/
+div.images-container {
+    column-count: 3;
+    column-gap: 15px;
+    width: 70%;
+    margin: 10px auto 100px;
+}
+
+div.cabin {
+    width: 350px;
+    height: 250px;
+    background-image: url("../assets/images/portfolio/cabin.png");
+    background-size: cover;
+  margin-bottom: 25px;
+}
+
+div.cake {
+  width: 350px;
+  height: 250px;
+  background-image: url("../assets/images/portfolio/cake.png");
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+div.circus {
+  width: 350px;
+  height: 250px;
+  background-image: url("../assets/images/portfolio/circus.png");
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+div.game {
+  width: 350px;
+  height: 250px;
+  background-image: url("../assets/images/portfolio/game.png");
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+div.safe {
+  width: 350px;
+  height: 250px;
+  background-image: url("../assets/images/portfolio/safe.png");
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+div.submarine {
+  width: 350px;
+  height: 250px;
+  background-image: url("../assets/images/portfolio/submarine.png");
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+
+div.zoom {
+  width: 350px;
+  height: 250px;
+  background-color: #18bc9c;
+  visibility: hidden;
+}
+
+div.zoom i {
+  font-size: 60px;
+  color: #fff;
+  line-height: 250px;
+}
+
+
+.about {
+  background-color: #18bc9c;
+}
+
+.about .second-title {
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+hr.line-about {
+  border-color: #fff;
+  background-color: #fff;
+  width: 7%;
+  height: 6px;
+  margin: 10px auto;
+  display: inline-block;
+}
+
+.star-about {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+}
+
+div.text-columns {
+  margin: auto;
+  width: 45%;
+  column-count: 2;
+  column-gap: 15px;
+}
+
+div.text-columns p {
+  text-transform: none;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+button.dowload {
+  background-color: #18bc9c;
+  border: solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+
+button.dowload i {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 2px;
+}
+
+button.dowload a{
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+
+button.dowload:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+button.dowload a:hover {
+  color: #18bc9c;
+}
+
+button.dowload a i:hover {
+  color: #18bc9c;
+}
+
+
+.contact h2 {
+  color: #212529;
+}
+
+hr.line-contact {
+  border-color: #2c3e50;
+  background-color: #2c3e50;
+  width: 7%;
+  height: 6px;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.star-contact {
+  color: #2c3e50;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+}
+
+form {
+ margin-top: 40px;
+ width: 50%;
+ margin: auto;
+ padding-top: 20px;
+ text-align: left;
+ padding-bottom: 100px;
+}
+
+form div {
+  border-bottom: 1px solid rgba(134,144,150, 0.5);
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+form div.message {
+  height: 200px;
+}
+input {
+  font-family: "Lato", sans-serif;
+  text-transform: none;
+  font-size: 25px;
+  color: #8e8696;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: #18bc9c;
+  border: none;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #169b80;
+}
